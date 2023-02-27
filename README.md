@@ -32,3 +32,16 @@ A nonce is an arbitrary number used only once in a cryptographic communication,
 in the spirit of a nonce word. They are often random or pseudo-random numbers.
 
 This is simple program in which we tried a simple nonce generation, with some difficulty levels.
+
+# Public-key-infrastructure in blockchain wallet
+
+Public Key Infrastructure (PKI) is a system of processes, technologies, and policies that allows you to encrypt and/or sign data. With PKI, you can issue digital certificates that authenticate the identity of users, devices, or services.
+
+In the program name "pki_wallet.py" we have implemented PKI in blockchain wallet using python programming, this program authenticates user using public key. Twilio is used to send OTP number.
+
+Steps:
+
+    1. firstly, it will ask for the recipient's public address.
+    2. If the provided public address is valid, it will proceed to OTP based authentication.
+    3. If entered OTP is correct the program prints a successful message to the user.
+
