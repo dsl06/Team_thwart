@@ -26,3 +26,8 @@ block consists of:
 3. time stamp
 4. hash of the block
 5. nonce
+
+A nonce is an arbitrary number used only once in a cryptographic communication,
+in the spirit of a nonce word. They are often random or pseudo-random numbers.
+
+This is simple program in which we tried a simple nonce generation, with some difficulty levels.
