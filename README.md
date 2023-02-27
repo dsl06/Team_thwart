@@ -27,6 +27,7 @@ block consists of:
 4. hash of the block
 5. nonce
 
+# nonce
 A nonce is an arbitrary number used only once in a cryptographic communication,
 in the spirit of a nonce word. They are often random or pseudo-random numbers.
 
